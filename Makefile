@@ -31,5 +31,5 @@ include ../falcon_makefiles/Makefile.libs
 # Adjust *FLAGS and paths as necessary
 ###############################################################################
 
-CC_FLAGS += -Werror -Wall -Wextra -Wcast-align -Wno-type-limits
-CC_FLAGS += -std=c++11 -O3
+CPPFLAGS += -Werror -Wall -Wextra -Wcast-align -Wno-type-limits
+CPPFLAGS += -std=c++11 -O3
